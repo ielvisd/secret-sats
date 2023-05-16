@@ -1,0 +1,10 @@
+
+contract Helloworld {
+  Sha256 hash;
+  constructor(Sha256 hash) {
+    this.hash = hash;
+  }
+  public function unlock(bytes message) {
+    require(sha256(message) == this.hash);
+  }
+}

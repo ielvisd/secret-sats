@@ -1,0 +1,94 @@
+/* Center the content */
+.App {
+  text-align: center;
+}
+
+/* Header */
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+/* Form Container */
+.form-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Balance */
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.balance-label {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.balance-amount {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.balance-unit {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.balance-input {
+  width: 100px;
+}
+
+/* Form Group */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-input {
+  padding: 10px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+}
+
+.form-button {
+  background-color: #FF69B4;
+  color: black;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.form-button:hover {
+  background-color: black;
+  color: white;
+}
+
+.form-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

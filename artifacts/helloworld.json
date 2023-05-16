@@ -1,0 +1,43 @@
+{
+ "version": 9,
+ "compilerVersion": "1.19.0+commit.72eaeba",
+ "contract": "Helloworld",
+ "md5": "b8e5bca09638f0067eee98363b926040",
+ "structs": [],
+ "library": [],
+ "alias": [],
+ "abi": [
+  {
+   "type": "function",
+   "name": "unlock",
+   "index": 0,
+   "params": [
+    {
+     "name": "message",
+     "type": "bytes"
+    }
+   ]
+  },
+  {
+   "type": "constructor",
+   "params": [
+    {
+     "name": "hash",
+     "type": "Sha256"
+    }
+   ]
+  }
+ ],
+ "stateProps": [],
+ "buildType": "debug",
+ "file": "file:///Users/elvisibarra/Documents/secret-sats/secret-sats/artifact/src/contracts/helloworld.scrypt",
+ "hex": "00<hash>610079527a75517a75615179a85179877777",
+ "sourceMapFile": "",
+ "transformer": {
+  "success": true,
+  "errors": [],
+  "scryptfile": "src/contracts/helloworld.scrypt",
+  "sourceMapFile": "src/contracts/helloworld.scrypt.map",
+  "ctxMethods": []
+ }
+}
